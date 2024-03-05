@@ -31,7 +31,7 @@ fetch(`https://swapi.dev/api/films/`)
                 bottom:100
             },
             width: '650px',
-            height: '650px'
+            height: '400px'
         };
 
         new Chartist.Line('.ct-chart', {
